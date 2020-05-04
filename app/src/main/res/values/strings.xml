@@ -1,0 +1,28 @@
+<resources>
+    <!--标题-->
+    <string name="app_name">QRCode</string>
+
+    <!--主页-->
+    <string name="main_scan">识别二维码</string>
+    <string name="main_diary">识别记录</string>
+
+    <!--扫描页-->
+    <string name="scan_hint">将二维码/条码放入框内，即可自动扫描</string>
+    <string name="scan_startPreview">开启预览</string>
+    <string name="scan_stopPreview">关闭预览</string>
+    <string name="scan_startSpot">开启识别</string>
+    <string name="scan_stopSpot">停止识别</string>
+    <string name="scan_SpotAndShowRect">开始识别并显示扫描框</string>
+    <string name="scan_StopAndHiddenRect">停止识别并隐藏扫描框</string>
+    <string name="scan_showRect">打开识别框</string>
+    <string name="scan_hiddenRect">隐藏识别框</string>
+    <string name="scan_rect_area">仅识别框内</string>
+    <string name="scan_full_screenArea">识别整个屏幕</string>
+    <string name="scan_on_flashLight">打开闪光灯</string>
+    <string name="scan_off_flashLight">关闭闪光灯</string>
+    <string name="scan_only_oneDimension">仅识别条码</string>
+    <string name="scan_only_twoDimension">仅识别二维码</string>
+    <string name="scan_only_QRcode">仅识别QRCode</string>
+    <string name="scan_all">识别所有码型</string>
+    <string name="scan_getScanByImage">扫描本地图片二维码</string>
+</resources>

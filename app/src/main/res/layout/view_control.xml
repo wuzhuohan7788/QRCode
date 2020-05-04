@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cn.bingoogolapple.flowlayout.BGAFlowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true"
+    app:fl_horizontalChildGap="4dp"
+    app:fl_isDistributionWhiteSpacing="true"
+    app:fl_verticalChildGap="4dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tv_scan_startPreview"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_startPreview" />
+
+    <TextView
+        android:id="@+id/tv_scan_stopPreview"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_stopPreview" />
+
+    <TextView
+        android:id="@+id/tv_scan_startSpot"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_startSpot" />
+
+    <TextView
+        android:id="@+id/tv_scan_stopSpot"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_stopSpot" />
+
+    <TextView
+        android:id="@+id/tv_scan_SpotAndShowRect"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_SpotAndShowRect" />
+
+    <TextView
+        android:id="@+id/tv_scan_StopAndHiddenRect"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_StopAndHiddenRect" />
+
+    <TextView
+        android:id="@+id/tv_scan_on_flashLight"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_on_flashLight" />
+
+    <TextView
+        android:id="@+id/tv_scan_off_flashLight"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_off_flashLight" />
+
+    <TextView
+        android:id="@+id/tv_scan_showRect"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_showRect" />
+
+    <TextView
+        android:id="@+id/tv_scan_hiddenRect"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_hiddenRect" />
+
+    <TextView
+        android:id="@+id/tv_scan_rect_area"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_rect_area" />
+
+    <TextView
+        android:id="@+id/tv_scan_full_screenArea"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_full_screenArea" />
+
+    <TextView
+        android:id="@+id/tv_scan_only_oneDimension"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_only_oneDimension" />
+
+    <TextView
+        android:id="@+id/tv_scan_only_twoDimension"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_only_twoDimension" />
+
+    <TextView
+        android:id="@+id/tv_scan_only_QRcode"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_only_QRcode" />
+
+    <TextView
+        android:id="@+id/tv_scan_all"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_all" />
+
+    <TextView
+        android:id="@+id/tv_scan_getScanByImage"
+        style="@style/viewControl_tv"
+        android:text="@string/scan_getScanByImage" />
+
+</cn.bingoogolapple.flowlayout.BGAFlowLayout>
